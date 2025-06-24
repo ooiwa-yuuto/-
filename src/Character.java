@@ -8,8 +8,8 @@ public class Character {
 		this.vy = vy;
 	}
 	public void draw(MyFrame f) {
-		f.fillRect(x,y,30,30);
 		f.setColor(0, 128, 0);
+		f.fillRect(x,y,30,30);
 	}
 	public void move() {
 		x+= vx;

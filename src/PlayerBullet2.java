@@ -1,6 +1,6 @@
 
-public class PlayerBullet extends Character {
-	public PlayerBullet(double x,double y, double vx,double vy) {
+public class PlayerBullet2 extends Character {
+	public PlayerBullet2(double x,double y, double vx,double vy) {
 		super(x,y,vx,vy);
 	}
 	public void draw(MyFrame f) {
@@ -11,5 +11,6 @@ public class PlayerBullet extends Character {
 		x+= vx;
 		y+= vy;
 		vy -=2;
+		vx +=0.1;
 	}
 }
