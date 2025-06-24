@@ -1,5 +1,6 @@
 
 public class DropEnemy extends Enemy {
+	int life =1;
 	public DropEnemy(double x,double y,double vx,double vy) {
 		super(x,y,vx,vy);
 	}
