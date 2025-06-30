@@ -1,12 +1,13 @@
 
 public class DropEnemy extends Enemy {
-	int life =1;
+	int life =1 +GameWorld.stage;
 	public DropEnemy(double x,double y,double vx,double vy) {
 		super(x,y,vx,vy);
 	}
 public void move() {
 	super.move();
 	vy=vy+0.1;
+	vy = +GameWorld.stage ;
 }
 public void draw(MyFrame f) {
 	f.setColor(0, 117, 107);

@@ -1,6 +1,6 @@
 
 public class StraightEnemy extends Enemy {
-	int life =5;
+	int life =5+GameWorld.stage ;
 	public StraightEnemy(double x,double y,double vx,double vy) {
 		super(x,y,vx,vy);
 	}
